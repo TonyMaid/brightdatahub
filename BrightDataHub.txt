@@ -1,0 +1,123 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright Data Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+        header {
+            background-color: #1a73e8;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #155ab6;
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .hero {
+            background: white;
+            padding: 3rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.1rem;
+            color: #666;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .service {
+            background: white;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+        footer {
+            background-color: #1a73e8;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bright Data Hub</h1>
+        <p>Empowering You with Practical Data Analytics Skills</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Courses</a>
+        <a href="#community">Community</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section class="hero" id="about">
+            <h1>Welcome to Bright Data Hub</h1>
+            <p>We provide hands-on training in Excel, Power BI, Tableau, and Google Colab to help you become a data-driven professional. Learn, practice, and share your success story with the world.</p>
+        </section>
+
+        <section class="services" id="services">
+            <div class="service">
+                <h2>Excel for Data Analysis</h2>
+                <p>Master formulas, pivot tables, dashboards, and more.</p>
+            </div>
+            <div class="service">
+                <h2>Power BI & Tableau</h2>
+                <p>Build interactive reports and gain insights visually.</p>
+            </div>
+            <div class="service">
+                <h2>Google Colab</h2>
+                <p>Leverage Python and Jupyter notebooks for data projects.</p>
+            </div>
+            <div class="service">
+                <h2>LinkedIn Branding</h2>
+                <p>Learn how to publish projects and grow your professional network.</p>
+            </div>
+        </section>
+
+        <section class="hero" id="community">
+            <h2>Join Our Community</h2>
+            <p>Share your journey, connect with mentors, and be featured through our LinkedIn publication network.</p>
+        </section>
+    </div>
+
+    <footer id="contact">
+        <p>&copy; 2025 Bright Data Hub | info@brightdatahub.com</p>
+    </footer>
+</body>
+</html>
